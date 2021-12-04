@@ -33,6 +33,7 @@ main {
   margin-top: 44px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 44px;
 
   justify-items: center;
   justify-content: center;
@@ -176,8 +177,14 @@ img {
   margin: auto;
 }
 
-footer {
-  margin-top: 44px;
+footer div {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 @media all and (max-width:700px) {
